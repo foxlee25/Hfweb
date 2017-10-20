@@ -1,0 +1,54 @@
+/*!
+ * Start Bootstrap - Full Slider (http://startbootstrap.com/template-overviews/full-slider)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-slider/blob/master/LICENSE)
+ */
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+.slide-title {
+    font-family: "Helvetica Neue";
+    font-weight: lighter;
+    font-size: 2.5rem;
+    color: #6c757d;
+    width: 100%;
+
+    position: absolute;
+    top: 100px;
+    text-align: center;
+}
+
+.slider-text {
+    position: absolute;
+    top: 100px;
+    text-align: center;
+}
+
+#countdown {
+    margin-top: 480px;
+    font-family: "Helvetica Neue";
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+
+#countdown span {
+    text-decoration: underline;
+}
+
+.date-marker p{
+    float: left;
+    margin-left: 10px;
+}
+.date-marker {
+    text-align: center;
+    margin: -20px auto auto 42%;
+}
