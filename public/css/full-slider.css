@@ -44,11 +44,12 @@
         background-size: 100%;
     }
     #countdown {
-        margin-top: 180px!important;
+        margin-top: 140px!important;
+        font-size: 1.2rem;
     }
 
     .carousel-item {
-        height: 350px;
+        height: 320px;
     }
 
     .slide-title {
@@ -76,8 +77,8 @@
 #countdown {
     margin-top: 370px;
     font-family: "Helvetica Neue";
-    font-size: 2.5rem;
     font-weight: 200;
+    font-size: 2rem;
 }
 
 
@@ -94,9 +95,12 @@
 
 .btn {
     font-family: "Helvetica Neue";
-    font-weight: lighter;
 }
 h3 {
     font-family: "Helvetica Neue";
     font-weight: 300;
+}
+
+section {
+    padding-bottom: 3rem;
 }
