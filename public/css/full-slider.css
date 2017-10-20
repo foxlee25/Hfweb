@@ -38,6 +38,9 @@
         -o-background-size: 100%;
         background-size: 100%;
     }
+    #countdown {
+        margin-top: 350px;
+    }
 }
 .slide-title {
     font-family: "Helvetica Neue";
