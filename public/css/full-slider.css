@@ -34,21 +34,25 @@
 }
 
 #countdown {
-    margin-top: 480px;
+    margin-top: 550px;
     font-family: "Helvetica Neue";
     font-size: 2.5rem;
     font-weight: 200;
 }
 
-#countdown span {
-    text-decoration: underline;
+/*#countdown span {*/
+    /*text-decoration: underline;*/
+/*}*/
+
+
+#day-marker {
+    text-decoration: none!important;
 }
 
-.date-marker p{
-    float: left;
-    margin-left: 10px;
-}
-.date-marker {
+.email-sub {
     text-align: center;
-    margin: -20px auto auto 42%;
+    margin-left: auto;
+    margin-right: auto;
+
+
 }
