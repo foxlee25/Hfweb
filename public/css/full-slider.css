@@ -63,21 +63,6 @@
     font-weight: 200;
 }
 
-@media (max-width: 801px) {
-    #countdown {
-        margin-top: 480px;
-    }
-    section{
-        height: 550px;
-    }
-    header {
-        height: 800px;
-    }
-}
-
-/*#countdown span {*/
-    /*text-decoration: underline;*/
-/*}*/
 
 
 #day-marker {
