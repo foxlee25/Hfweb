@@ -26,7 +26,7 @@
 #slider-2 {
     background-image: url(../img/landing2.png);
 }
-@media (max-width: 950px) {
+@media (max-width: 1000px) {
     #slider-1 {
         margin-top: 80px;
         background-image: url(../img/landing1_mobile.PNG);
