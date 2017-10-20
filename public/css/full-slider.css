@@ -44,11 +44,8 @@
     #countdown {
         margin-top: 480px;
     }
-    header {
-        margin-bottom: 200px;
-     }
-    section {
-        margin-bottom: 200px;
+    section{
+        height: 550px;
     }
 }
 
