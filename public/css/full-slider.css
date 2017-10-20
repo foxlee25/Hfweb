@@ -17,8 +17,7 @@
 
 .slide-title {
     font-family: "Helvetica Neue";
-    font-weight: lighter;
-    font-size: 2.5rem;
+    font-size: 3rem;
     color: #6c757d;
     width: 100%;
 
@@ -46,6 +45,9 @@
     }
     section{
         height: 550px;
+    }
+    header {
+        height: 800px;
     }
 }
 

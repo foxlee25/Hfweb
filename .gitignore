@@ -1,4 +1,15 @@
 
+<<<<<<< HEAD
+*.xml
+
+*.xml
+
+.idea/workspace.xml
+
+.idea/.name
+
+.idea/HooFoo.iml
+=======
 .idea/.name
 
 .idea/encodings.xml
@@ -6,3 +17,4 @@
 .idea/HooFoo.iml
 
 *.xml
+>>>>>>> dev
