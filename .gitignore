@@ -4,3 +4,7 @@
 *.xml
 
 .idea/workspace.xml
+
+.idea/.name
+
+.idea/HooFoo.iml
