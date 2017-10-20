@@ -15,6 +15,30 @@
 
 }
 
+#slider-1 {
+    background-image: url(../img/landing1.PNG);
+}
+
+#slider-2 {
+    background-image: url(../img/landing2.png);
+}
+@media (max-width: 950px) {
+    #slider-1 {
+        background-image: url(../img/landing1_mobile.PNG);
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        -o-background-size: 100%;
+        background-size: 100%;
+    }
+
+    #slider-2 {
+        background-image: url(../img/landing2_mobile.png);
+        -webkit-background-size: 100%;
+        -moz-background-size: 100%;
+        -o-background-size: 100%;
+        background-size: 100%;
+    }
+}
 .slide-title {
     font-family: "Helvetica Neue";
     font-size: 3rem;
