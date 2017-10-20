@@ -44,6 +44,10 @@
     #countdown {
         margin-top: 480px;
     }
+    .section {
+        margin-top: 100px;
+        margin-bottom: 100px;
+     }
 }
 
 /*#countdown span {*/
@@ -59,6 +63,4 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-
-
 }
