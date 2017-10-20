@@ -20,8 +20,8 @@ var x = setInterval(function() {
 
     // Output the result in an element with id="demo"
     document.getElementById("day").innerHTML = days;
-    document.getElementById("hour").innerHTML = hours + ":";
-    document.getElementById("min").innerHTML = minutes + ":";
+    document.getElementById("hour").innerHTML = hours;
+    document.getElementById("min").innerHTML = minutes;
     document.getElementById("sec").innerHTML = seconds;
 
     // If the count down is over, write some text

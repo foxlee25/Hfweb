@@ -62,17 +62,25 @@
               <!--<h2 class="slide-title">HooFoo As Bitcoin Wallet</h2>-->
               <p id="countdown">
                 <span id="day"></span>
-                <span id="hour"></span>
-                <span id="min"></span>
+                <span class="date-marker" id="day-marker">DAYS</span>
+
+                <span id="hour"></span>:
+                <!--<span class="date-marker" id="hour-marker">HRS</span>-->
+
+                <span id="min"></span>:
+                <!--<span class="date-marker" id="min-marker">MIN</span>-->
+
                 <span id="sec"></span>
+                <!--<span class="date-marker" id="sec-marker">SEC</span>-->
+
               </p>
 
-              <div class="date-marker">
-                <p id="day-marker">DAYS</p>
-                <p id="hour-marker">HRS</p>
-                <p id="min-marker">MIN</p>
-                <p id="sec-marker">SEC</p>
-              </div>
+              <!--<div class="date-marker">-->
+                <!--<p id="day-marker">DAYS</p>-->
+                <!--<p id="hour-marker">HRS</p>-->
+                <!--<p id="min-marker">MIN</p>-->
+                <!--<p id="sec-marker">SEC</p>-->
+              <!--</div>-->
 
             </div>
 
@@ -101,13 +109,20 @@
     <!-- Page Content -->
     <section class="py-5">
       <div class="container-fluid">
+        <div class="col-md-3"></div>
+        <div class="col-md-6 email-sub">
+          <h1>SUBSCRIPTION</h1>
+          <form>
+            <div class="form-group row">
+              <input class="form-control" placeholder="name">
+            </div>
+            <div class="form-group row">
+              <input class="form-control" placeholder="email">
+            </div>
+            <button class="btn btn-info" type="submit">Subscription</button>
+          </form>
+        </div>
 
-        <h1>SUBSCRIPTION</h1>
-        <form>
-          <input class="input-group" value="name">
-          <input class="input-group" value="email">
-          <button class="btn-info" type="submit">Subscription</button>
-        </form>
       </div>
     </section>
 
