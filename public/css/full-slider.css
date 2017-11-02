@@ -54,7 +54,7 @@
 
     .slide-title {
         top: 10px!important;
-
+        font-size: 2rem!important;    /*after*/
     }
     footer {
         margin-top: 3rem;
