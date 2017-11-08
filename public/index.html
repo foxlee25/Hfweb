@@ -17,6 +17,21 @@
     <link href="css/full-slider.css" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+      <script src="https://www.gstatic.com/firebasejs/4.6.1/firebase.js"></script>
+      <script>
+          // Initialize Firebase
+          var config = {
+              apiKey: "AIzaSyBjeGLQmKQNX4MkKKLjFWLeALXOdrAPo0M",
+              authDomain: "hoofooweb.firebaseapp.com",
+              databaseURL: "https://hoofooweb.firebaseio.com",
+              projectId: "hoofooweb",
+              storageBucket: "hoofooweb.appspot.com",
+              messagingSenderId: "378104840671"
+          };
+          firebase.initializeApp(config);
+      </script>
+
+
 
   </head>
 
@@ -124,6 +139,9 @@
 
     <!-- countdown Javascript -->
     <script src="js/countdown.js"></script>
+
+  <!-- get ip address and search for geolocation -->
+  <script src="js/geolocation.js"></script>
 
   </body>
 
