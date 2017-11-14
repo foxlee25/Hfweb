@@ -1,7 +1,7 @@
 /**
  * Created by Joy on 10/18/17.
  */
-var countDownDate = new Date("Jan 5, 2018 15:37:25").getTime();
+var countDownDate = new Date("Nov 28, 2017 20:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
