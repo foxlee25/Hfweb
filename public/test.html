@@ -43,6 +43,12 @@
           firebase.initializeApp(config);
       </script>
 
+      <!-- Scroll animation -->
+      <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+      <script>
+          window.sr = ScrollReveal();
+      </script>
   </head>
 
   <body>
@@ -55,8 +61,8 @@
         </header>
 
         <div class="section_2">
-            <img class="intro fade_big" id="section_2_pic" src="img/1m.jpg">
-            <p class="intro-text fade" id="text1">
+            <img class="intro" id="section_2_pic" src="img/1m.jpg">
+            <p class="intro-text" id="text1">
                 The first mobile app and hardware combination wallet, designed to secure and
                 simplify your cryptocurrency transaction for your ios device.
             </p>
@@ -74,12 +80,12 @@
         
         <div class="section_3">
 
-            <p class="intro-text" id="text2">
+            <p class="intro-text fade" id="text2">
                 HooFoo hardware wallet operates with your smartphones that lets you
                 invest or trade anytime and anywhere you want without carrying your
                 heavy laptop
             </p>
-            <img class="intro fade_big" id="section_3_pic" src="img/app_screen_mobile.png">
+            <img class="intro fade" id="section_3_pic" src="img/app_screen_mobile.png">
         </div>
     </div>
 
@@ -147,6 +153,10 @@
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
     <script src="js/app.js"></script>
+
+    <script>
+        sr.reveal('.fade', {duration: 500, viewFactor: 0.4});
+    </script>
   </body>
 
 </html>
