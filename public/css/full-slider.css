@@ -50,7 +50,7 @@
 }
 
 #text2 {
-    bottom: 600px;
+    top: 100px;
     color: white;
 }
 
@@ -96,6 +96,31 @@
 .slider-text {
     position: absolute;
     top: 100px;
+    text-align: center;
+}
+
+.email-sub {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mc_embed_signup_scroll h2 {
+    text-align: center;
+    font-family: "Helvetica";
+    font-weight: normal!important;
+    font-size: 1.7rem!important;
+
+}
+
+.mc-field-group {
+    width: 70%!important;
+    max-width: 400px;
+    min-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.clear {
     text-align: center;
 }
 
