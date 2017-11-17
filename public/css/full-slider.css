@@ -8,55 +8,74 @@
     font-family: "Helvetica Neue";
 }
 
+.container-fluid {
+    padding-right: 0!important;
+    padding-left: 0!important;
+}
 #mc_embed_signup_scroll, header {
-    max-width: 1080px;
+    max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 0!important;
+    padding-right: 0!important;
 }
 
-.carousel-item {
-    height: 550px;
-    min-height: 300px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-
+.intro {
+    width: 100%;
+    text-align: center;
 }
 
-#slider-1 {
-    background-image: url(../img/landing1.PNG);
+#logo {
+    width: 25%;
+    margin: 20px 0 20px 20px;
 }
 
+#intro_1 {
+    margin-top: 90px;
+}
+
+.intro-text {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #4f4f4f;
+    position: relative;
+    font-weight: 300;
+}
+
+#text1 {
+    bottom: 650px;
+}
+
+#text2 {
+    bottom: 600px;
+    color: white;
+}
+
+#section_3_pic {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 200px;
+}
+
+.section_3 {
+    background-color: #6c757d;
+}
+
+
+.feature {
+    width: 70%;
+    margin: 10px 15% 20px 15%;
+}
+.feature-group {
+    margin-top: -100px;
+}
 
 @media (max-width: 1000px) {
-    #slider-1 {
-        margin-top: 60px;
-        background-image: url(../img/landing1_mobile.PNG);
-        -webkit-background-size: 100%;
-        -moz-background-size: 100%;
-        -o-background-size: 100%;
-        background-size: 100%;
-    }
-
-    /*#slider-2 {*/
-        /*background-image: url(../img/landing2_mobile.png);*/
-        /*-webkit-background-size: 100%;*/
-        /*-moz-background-size: 100%;*/
-        /*-o-background-size: 100%;*/
-        /*background-size: 100%;*/
-    /*}*/
-    #countdown {
-        margin-top: 140px!important;
-        font-size: 1.4rem!important;
-    }
-
-    .carousel-item {
-        height: 300px;
-    }
     .slide-title {
-        top: 10px!important;
         font-size: 1.7rem!important;    /*after*/
     }
     footer {
@@ -67,10 +86,10 @@
     font-family: "Helvetica Neue";
     font-size: 2.5rem;
     color: #6c757d;
-    width: 100%;
+    width: 95%;
 
     position: absolute;
-    top: 100px;
+    top: 130px;
     text-align: center;
 }
 
@@ -80,48 +99,15 @@
     text-align: center;
 }
 
-#countdown {
-    margin-top: 370px;
-    font-family: "Helvetica Neue";
-    font-weight: 200;
-    font-size: 2rem;
-}
-
-
-
-#day-marker {
-    text-decoration: none!important;
-}
-
-.email-sub {
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#mc_embed_signup_scroll h2 {
-    text-align: center;
-    font-family: "Helvetica";
-    font-weight: normal!important;
-    font-size: 1.7rem!important;
-
-}
-
-.mc-field-group {
-    width: 70%!important;
-    max-width: 400px;
-    min-width: 100px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.clear {
-    text-align: center;
-}
-
-
 .btn {
+    display: block;
     font-family: "Helvetica Neue";
     font-weight: 400;
+    background-color: #10aea2;
+    color: white;
+    font-size: 0.8rem;
+    margin: 20px auto 50px auto;
+
 }
 
 h3 {
