@@ -1,0 +1,168 @@
+/*!
+ * Start Bootstrap - Full Slider (http://startbootstrap.com/template-overviews/full-slider)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-slider/blob/master/LICENSE)
+ */
+
+* {
+    font-family: "Helvetica Neue";
+}
+
+.container-fluid {
+    padding-right: 0!important;
+    padding-left: 0!important;
+}
+#mc_embed_signup_scroll, header {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+.intro {
+    width: 100%;
+    text-align: center;
+}
+
+#logo {
+    width: 25%;
+    margin: 20px 0 20px 20px;
+}
+
+#intro_1 {
+    margin-top: 90px;
+}
+
+.intro-text {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #4f4f4f;
+    position: relative;
+    font-weight: 300;
+}
+
+#text1 {
+    bottom: 650px;
+}
+
+#text2 {
+    top: 100px;
+    color: white;
+}
+
+#section_3_pic {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 200px;
+}
+
+.section_3 {
+    background-color: #6c757d;
+}
+
+
+.feature {
+    width: 70%;
+    margin: 10px 15% 20px 15%;
+}
+.feature-group {
+    margin-top: -100px;
+}
+
+@media (max-width: 1000px) {
+    .slide-title {
+        font-size: 1.7rem!important;    /*after*/
+    }
+    footer {
+        margin-top: 3rem;
+    }
+}
+.slide-title {
+    font-family: "Helvetica Neue";
+    font-size: 2.5rem;
+    color: #6c757d;
+    width: 95%;
+
+    position: absolute;
+    top: 130px;
+    text-align: center;
+}
+
+.slider-text {
+    position: absolute;
+    top: 100px;
+    text-align: center;
+}
+
+.email-sub {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mc_embed_signup_scroll h2 {
+    text-align: center;
+    font-family: "Helvetica";
+    font-weight: normal!important;
+    font-size: 1.7rem!important;
+
+}
+
+.mc-field-group {
+    width: 70%!important;
+    max-width: 400px;
+    min-width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.clear {
+    text-align: center;
+}
+
+.btn {
+    display: block;
+    font-family: "Helvetica Neue";
+    font-weight: 400;
+    background-color: #10aea2;
+    color: white;
+    font-size: 0.8rem;
+    margin: 20px auto 50px auto;
+
+}
+
+h3 {
+    font-family: "Helvetica Neue";
+    font-weight: 300;
+}
+footer {
+    width: 100%!important;
+}
+/* social media icon */
+.social-media-group {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px!important;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10%;
+    background: #10aea2;
+    color: white;
+}
+
+.fa:hover {
+    background-color: #10dace;
+    text-decoration: none;
+    color: white;
+}
+
