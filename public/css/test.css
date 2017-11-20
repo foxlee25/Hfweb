@@ -46,12 +46,14 @@
 }
 
 #text1 {
-    bottom: 630px;
+    top: 50px;
+    height: 10px;
 }
 
 #text2 {
-    top: 100px;
+    top: 20px;
     color: white;
+    height: 0;
 }
 
 #section_3_pic {
@@ -71,7 +73,6 @@
     margin: 10px 15% 20px 15%;
 }
 .feature-group {
-    margin-top: -100px;
 }
 
 @media (max-width: 1000px) {
