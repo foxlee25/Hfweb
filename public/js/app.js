@@ -1,14 +1,15 @@
 $(document).ready(function() {
-    $("#section_2_pic").attr("src", section2Pic())
+    $("#section_2_pic").attr("src", sectionPic("img/1m.jpg", "img/1.jpg"));
+    $("#section_3_pic").attr("src", sectionPic("img/app_screen_mobile.png", "img/app_screen_desktop.png"));
     }
 );
 
 
-function section2Pic() {
+function sectionPic(mobile, desk) {
     const windowSize = $(window).width();
-    let section2Src = "img/1m.jpg";
-    if (windowSize > 1000) {
-        section2Src = "img/1.jpg";
+    let section2Src = mobile;
+    if (windowSize > 800) {
+        section2Src = desk;
     }
     return section2Src;
 }
