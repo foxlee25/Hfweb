@@ -26,8 +26,11 @@
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/full-slider.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <!-- swiper -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.6/css/swiper.min.css">
+
 
       <script src="https://www.gstatic.com/firebasejs/4.6.1/firebase.js"></script>
       <script>
@@ -43,57 +46,132 @@
           firebase.initializeApp(config);
       </script>
 
+      <!-- Scroll animation -->
+      <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+
+      <script>
+          window.sr = ScrollReveal();
+      </script>
+
+      <style>
+          html, body {
+              position: relative;
+              height: 100%;
+          }
+          body {
+              font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+              font-size: 14px;
+              margin: 0;
+              padding: 0;
+          }
 
 
+
+          .swiper-container {
+              max-width: 1280px;
+              width: 100%;
+          }
+          @media (min-width: 800px) {
+              .swiper-container {
+                  height: 60vw;
+                  max-height: 770px;
+                  min-height: 590px;
+              }
+              .swiper-pagination {
+                  top: 60%;
+                  left: 18vw!important;
+              }
+          }
+          @media (max-width: 800px) {
+              .swiper-container {
+                  height: 160vw;
+              }
+              .swiper-pagination {
+                  top: 32%;
+              }
+          }
+          .swiper-slide {
+              max-width: 1280px;
+              background-position: center;
+              background-size: cover;
+          }
+      </style>
   </head>
 
   <body>
 
-    <header>
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <div class="carousel-inner" role="listbox">
-          <!-- Slide One - Set the background image for this slide in the line below -->
-          <div class="carousel-item active" id="slider-1">
-            <h2 class="slide-title">HooFoo: The New Generation Bitcoin Hardware Wallet</h2>
+    <div class="container-fluid">
+        <header class="col-sm-12 section_1">
+            <img id="logo" src="img/header_logo.png">
+            <img class="intro" id="intro_1" src="img/1721.png">
+            <h2 class="slide-title">The New Generation Bitcoin Hardware Wallet</h2>
+            <!--<button class="btn" href="#">PRE-ORDER NOW</button>-->
 
             <div class="col-sm-12 slider-text">
-              <p id="countdown">
-                <span id="day"></span>
-                <span class="date-marker" id="day-marker">DAYS</span>
-                <span id="hour"></span>:
-                <span id="min"></span>:
-                <span id="sec"></span>
+                <p id="countdown">
+                    <span id="day"></span>
+                    <span class="date-marker" id="day-marker">DAYS</span>
+                    <span id="hour"></span>:
+                    <span id="min"></span>:
+                    <span id="sec"></span>
 
-              </p>
+                </p>
+            </div>
+        </header>
+
+        <div class="section_2">
+            <p class="intro-text" id="text1">
+                The first mobile app and hardware combination wallet, designed to secure and
+                simplify your cryptocurrency transaction for your ios device.
+            </p>
+            <img class="intro" id="section_2_pic" src="img/1m.jpg">
+
+            <div class="feature-group">
+                <img class="feature fade" src="img/icon_mobile-10.png">
+                <img class="feature fade" src="img/icon_mobile-11.png">
+                <img class="feature fade" src="img/icon_mobile-12.png">
+                <img class="feature fade" src="img/icon_mobile-13.png">
+                <img class="feature fade" src="img/icon_mobile-14.png">
+                <img class="feature fade" src="img/icon_mobile-15.png">
             </div>
 
-          </div>
         </div>
-      </div>
-    </header>
+        
 
-    <!-- Page Content -->
-<!--
-    <section class="">
-      <div class="container-fluid">
-        <div class="col-md-3"></div>
-        <div class="col-md-6 email-sub">
-          <h3>SUBSCRIPTION</h3>
-          <form>
-            <div class="form-group row">
-              <input class="form-control" placeholder="name">
+    </div>
+
+    <!-- Swiper -->
+
+    <div class="swiper-container section_3">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide" id="swiper-slide1">
+                <img src="img/app_screen_mobile.png" class="intro fade" id="section_3_pic">
+                <div class="text intro-text text2 fade">
+                    Hoofoo hardware wallet operates with you smartphones that lets you
+                    invest or trade anytime and anywhere you want without carrying
+                    your heavy laptop
+                </div>
             </div>
-            <div class="form-group row">
-              <input class="form-control" placeholder="email">
+            <div class="swiper-slide" id="swiper-slide2">
+                <img src="img/app_screen_2_mobile.png" class="intro" id="section_3_pic2">
+                <div class="text intro-text text2">
+                    Real-time currency price charts let you monitor the coin market,
+                    and the investing alarm notifies you when it is a good time to
+                    invest
+                </div>
             </div>
-            <button class="btn btn-info" type="submit">Subscription</button>
-          </form>
         </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination swiper-pagination-white"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next swiper-button-white"></div>
+        <div class="swiper-button-prev swiper-button-white"></div>
+    </div>
 
-      </div>
-    </section>
--->
+
         <!-- Begin MailChimp Signup Form -->
+
+
     <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
     <style type="text/css">
         #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica Neue,Arial,sans-serif; }
@@ -121,18 +199,23 @@
         <div id="mce-responses" class="clear">
             <div class="response" id="mce-error-response" style="display:none"></div>
             <div class="response" id="mce-success-response" style="display:none"></div>
-        </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+
+        </div>
+           <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+
         <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_eb6c4139a09d1253ba320a119_5781892464" tabindex="-1" value=""></div>
         <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="background-color: #10aea2;"></div>
         </div>
     </form>
     </div>
     <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
+
     <!--End mc_embed_signup-->
+
 
     <!-- Footer -->
     <footer class="py-5" style="background-color: #6c757d;">
-      <div class="container">
+      <div class="container-fluid">
           <div class="social-media-group">
               <a href="https://www.facebook.com/hoofoohardwarewallet/" class="fa fa-facebook"></a>
               <a href="https://twitter.com/HooFooWallet" class="fa fa-twitter"></a>
@@ -141,7 +224,6 @@
 
           <p class="m-0 text-center text-white">Copyright &copy; HooFoo.Inc 2017</p>
       </div>
-      <!-- /.container -->
     </footer>
 
     <!-- Bootstrap core JavaScript -->
@@ -149,9 +231,33 @@
     <script src="vendor/popper/popper.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
 
-    <!-- countdown Javascript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.6/js/swiper.min.js"></script>
     <script src="js/countdown.js"></script>
 
+    <script src="js/app.js"></script>
+
+    <script>
+        sr.reveal('.fade', {duration: 500, viewFactor: 0.4});
+    </script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            spaceBetween: 30,
+//            effect: 'fade',
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            fade: {
+                   crossFade: true
+           },
+        });
+    </script>
   </body>
 
 </html>
