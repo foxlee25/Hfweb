@@ -1,8 +1,19 @@
 $(document).ready(function() {
     $("#section_2_pic").attr("src", sectionPic("img/1m.jpg", "img/1.jpg"));
     $("#section_3_pic").attr("src", sectionPic("img/app_screen_mobile.png", "img/app_screen_desktop.png"));
+    $("#section_3_pic2").attr("src", sectionPic("img/app_screen_2_mobile.png", "img/app_screen_2_desktop.png"));
+
     }
 );
+
+function customSwiper() {
+    if ($("#swiper-slide2").attr("opacity") === 1) {
+        $("#swiper-slide1").attr("opacity", 0);
+    } else {
+        $("#swiper-slide1").attr("opacity", 1);
+    }
+}
+
 
 
 function sectionPic(mobile, desk) {

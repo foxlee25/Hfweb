@@ -52,13 +52,20 @@
     height: 10px;
 }
 
-#text2 {
-    top: 20px;
+.text2 {
+    top: -87vh;
     color: white;
     height: 0;
 }
 
 #section_3_pic {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 200px;
+}
+
+#section_3_pic2 {
     width: 80%;
     margin-right: 10%;
     margin-left: 10%;
@@ -122,16 +129,21 @@
         margin: 10vh 1vw 20vh 6vw;
     }
 
-    #text2 {
+    .text2 {
         display: block;
         width: 45%;
         min-width: 300px;
         float: left;
         left: 40vw;
-        top: 40vh;
+        top: -60vh;
     }
 
     #section_3_pic {
+        width: 30%;
+        min-width: 300px;
+        margin-top: 10px;
+    }
+    #section_3_pic2 {
         width: 30%;
         min-width: 300px;
         margin-top: 10px;
