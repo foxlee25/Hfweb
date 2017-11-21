@@ -14,6 +14,14 @@
     max-width: 1280px;
 
 }
+
+#countdown {
+    margin-top: 30%;
+    font-family: "Helvetica Neue";
+    font-weight: 200;
+    font-size: 2rem;
+}
+
 #mc_embed_signup_scroll, header {
     max-width: 1280px;
     margin-left: auto;
@@ -90,6 +98,12 @@
     }
     footer {
         margin-top: 3rem;
+    }
+    #countdown {
+        margin-top: 60%;
+        font-family: "Helvetica Neue";
+        font-weight: 200;
+        font-size: 1.2rem;
     }
 }
 
