@@ -110,15 +110,21 @@
 
     <div class="swiper-container section_3">
         <div class="swiper-wrapper">
+            <div class="swiper-slide" id="swiper-slide1">
                 <img src="img/app_screen_mobile.png" class="intro fade" id="section_3_pic">
+                <div class="text intro-text text2">
                     Hoofoo hardware wallet operates with you smartphones that lets you
                     invest or trade anytime and anywhere you want without carrying
                     your heavy laptop
+                </div>
             </div>
+            <div class="swiper-slide" id="swiper-slide2">
                 <img src="img/app_screen_2_mobile.png" class="intro" id="section_3_pic2">
+                <div class="text intro-text text2" style="background: #6c757d;z-index: 999;">
                     Real-time currency price charts let you monitor the coin market,
                     and the investing alarm notifies you when it is a good time to
                     invest
+                </div>
             </div>
         </div>
         <!-- Add Pagination -->
@@ -205,6 +211,7 @@
     <script>
         var swiper = new Swiper('.swiper-container', {
             spaceBetween: 30,
+//            effect: 'fade',
             pagination: {
                 el: '.swiper-pagination',
                 clickable: true,
@@ -213,6 +220,11 @@
                 nextEl: '.swiper-button-next',
                 prevEl: '.swiper-button-prev',
             },
+            fade: {
+                   crossFade: true
+           },
+        });
+    </script>
   </body>
 
 </html>
