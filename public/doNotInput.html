@@ -65,6 +65,8 @@
               padding: 0;
           }
 
+
+
           .swiper-container {
               max-width: 1280px;
               width: 100%;
@@ -73,11 +75,19 @@
               .swiper-container {
                   height: 60vw;
                   max-height: 770px;
+                  min-height: 590px;
+              }
+              .swiper-pagination {
+                  top: 60%;
+                  left: 18vw!important;
               }
           }
           @media (max-width: 800px) {
               .swiper-container {
-                  height: 162vw;
+                  height: 160vw;
+              }
+              .swiper-pagination {
+                  top: 32%;
               }
           }
           .swiper-slide {
@@ -125,7 +135,7 @@
         <div class="swiper-wrapper">
             <div class="swiper-slide" id="swiper-slide1">
                 <img src="img/app_screen_mobile.png" class="intro fade" id="section_3_pic">
-                <div class="text intro-text text2">
+                <div class="text intro-text text2 fade">
                     Hoofoo hardware wallet operates with you smartphones that lets you
                     invest or trade anytime and anywhere you want without carrying
                     your heavy laptop

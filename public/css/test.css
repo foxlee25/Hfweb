@@ -53,7 +53,7 @@
 }
 
 .text2 {
-    top: -153vw;
+    top: -100%;
     color: white;
     height: 0;
 }
@@ -62,18 +62,19 @@
     width: 80%;
     margin-right: 10%;
     margin-left: 10%;
-    margin-top: 200px;
+    margin-top: 33vh;
 }
 
 #section_3_pic2 {
     width: 80%;
     margin-right: 10%;
     margin-left: 10%;
-    margin-top: 200px;
+    margin-top: 33vh;
 }
 
 .section_3 {
     background-color: #6c757d;
+    height: 160vw;
 }
 
 
@@ -114,7 +115,6 @@
         margin-left: auto;
         margin-right: auto;
         top: 4vw;
-
     }
     .feature {
         width: 28vw;
@@ -135,18 +135,18 @@
         min-width: 300px;
         float: left;
         left: 40vw;
-        top: -40vw;
+        top: -400px;
     }
 
     #section_3_pic {
         width: 30%;
         min-width: 300px;
-        margin-top: 10px;
+        margin-top: 0;
     }
     #section_3_pic2 {
         width: 30%;
         min-width: 300px;
-        margin-top: 10px;
+        margin-top: 0;
     }
 }
 .slide-title {

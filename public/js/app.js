@@ -6,16 +6,6 @@ $(document).ready(function() {
     }
 );
 
-function customSwiper() {
-    if ($("#swiper-slide2").attr("opacity") === 1) {
-        $("#swiper-slide1").attr("opacity", 0);
-    } else {
-        $("#swiper-slide1").attr("opacity", 1);
-    }
-}
-
-
-
 function sectionPic(mobile, desk) {
     const windowSize = $(window).width();
     let section2Src = mobile;
