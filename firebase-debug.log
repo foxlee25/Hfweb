@@ -1,28 +1,28 @@
-[debug] [2017-11-22T23:37:12.515Z] ----------------------------------------------------------------------
-[debug] [2017-11-22T23:37:12.519Z] Command:       /Users/lishaodong/.nvm/versions/node/v6.7.0/bin/node /Users/lishaodong/.nvm/versions/node/v6.7.0/bin/firebase serve
-[debug] [2017-11-22T23:37:12.519Z] CLI Version:   3.15.2
-[debug] [2017-11-22T23:37:12.520Z] Platform:      darwin
-[debug] [2017-11-22T23:37:12.520Z] Node Version:  v6.7.0
-[debug] [2017-11-22T23:37:12.521Z] Time:          Wed Nov 22 2017 15:37:12 GMT-0800 (PST)
-[debug] [2017-11-22T23:37:12.521Z] ----------------------------------------------------------------------
+[debug] [2017-11-22T23:51:00.804Z] ----------------------------------------------------------------------
+[debug] [2017-11-22T23:51:00.807Z] Command:       /Users/lishaodong/.nvm/versions/node/v6.7.0/bin/node /Users/lishaodong/.nvm/versions/node/v6.7.0/bin/firebase serve
+[debug] [2017-11-22T23:51:00.809Z] CLI Version:   3.15.2
+[debug] [2017-11-22T23:51:00.809Z] Platform:      darwin
+[debug] [2017-11-22T23:51:00.809Z] Node Version:  v6.7.0
+[debug] [2017-11-22T23:51:00.809Z] Time:          Wed Nov 22 2017 15:51:00 GMT-0800 (PST)
+[debug] [2017-11-22T23:51:00.809Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2017-11-22T23:37:12.538Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2017-11-22T23:37:12.538Z] > authorizing via signed-in user
-[debug] [2017-11-22T23:37:12.541Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/hoofooweb  
- Wed Nov 22 2017 15:37:12 GMT-0800 (PST)
-[debug] [2017-11-22T23:37:13.060Z] <<< HTTP RESPONSE 200
-[debug] [2017-11-22T23:37:13.062Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/hoofooweb/tokens  
- Wed Nov 22 2017 15:37:13 GMT-0800 (PST)
-[debug] [2017-11-22T23:37:13.526Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-22T23:51:00.826Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-22T23:51:00.826Z] > authorizing via signed-in user
+[debug] [2017-11-22T23:51:00.829Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/hoofooweb  
+ Wed Nov 22 2017 15:51:00 GMT-0800 (PST)
+[debug] [2017-11-22T23:51:01.255Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-22T23:51:01.259Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/hoofooweb/tokens  
+ Wed Nov 22 2017 15:51:01 GMT-0800 (PST)
+[debug] [2017-11-22T23:51:10.444Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Serving from '/Users/lishaodong/HooFooInc/HooFoo'...
 [info] 
-[debug] [2017-11-22T23:37:13.530Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hoofooweb  
- Wed Nov 22 2017 15:37:13 GMT-0800 (PST)
-[debug] [2017-11-22T23:37:13.895Z] <<< HTTP RESPONSE 200
-[debug] [2017-11-22T23:37:13.895Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/378104840671/clients/_:getWebAppConfig  
- Wed Nov 22 2017 15:37:13 GMT-0800 (PST)
-[debug] [2017-11-22T23:37:14.285Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-22T23:51:10.448Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/hoofooweb  
+ Wed Nov 22 2017 15:51:10 GMT-0800 (PST)
+[debug] [2017-11-22T23:51:10.787Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-22T23:51:10.787Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/378104840671/clients/_:getWebAppConfig  
+ Wed Nov 22 2017 15:51:10 GMT-0800 (PST)
+[debug] [2017-11-22T23:51:11.174Z] <<< HTTP RESPONSE 200
 [info] i  hosting: Serving hosting files from: public
 [info] ✔  hosting: Local server: http://localhost:5000
 
