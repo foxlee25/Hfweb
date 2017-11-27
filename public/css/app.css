@@ -1,0 +1,319 @@
+/*!
+ * Start Bootstrap - Full Slider (http://startbootstrap.com/template-overviews/full-slider)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-full-slider/blob/master/LICENSE)
+ */
+
+* {
+    font-family: "Helvetica Neue";
+}
+
+.container-fluid, #section_2_pic{
+    padding-right: 0!important;
+    padding-left: 0!important;
+    max-width: 1280px;
+
+}
+
+#countdown {
+    margin-top: 30%;
+    font-family: "Helvetica Neue";
+    font-weight: 200;
+    font-size: 2.2rem;
+}
+
+#mc_embed_signup_scroll, header {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0!important;
+    padding-right: 0!important;
+}
+
+.intro {
+    width: 100%;
+    text-align: center;
+}
+
+#logo {
+    width: 25%;
+    margin: 20px 0 20px 20px;
+}
+
+
+
+.intro-text {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    text-align: center;
+    font-size: 1.4rem;
+    color: #4f4f4f;
+    position: relative;
+    font-weight: 300;
+}
+
+#text1 {
+    top: 14vw;
+    height: 10px;
+}
+
+.bg-color-wrapper {
+    background-color: #f2f2f2;
+}
+
+.text2 {
+    top: -100%;
+    color: white;
+    height: 0;
+}
+
+#section_3_pic {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 33vh;
+}
+
+#section_3_pic2 {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 33vh;
+}
+
+.section_3 {
+    background-color: #6c757d;
+    height: 160vw;
+    max-height: 750px;
+}
+
+
+.feature {
+    width: 70%;
+    margin: 10px 15% 20px 15%;
+}
+
+
+@media (max-width: 800px) {
+    .slide-title {
+        top: 100px!important;
+        font-size: 1.4rem!important;    /*after*/
+    }
+    #intro_1 {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    footer {
+        margin-top: 3rem;
+    }
+    #countdown {
+        margin-top: 45%;
+        font-family: "Helvetica Neue";
+        font-weight: 200;
+        font-size: 1.2rem;
+    }
+
+    #mc_embed_signup_scroll label {
+        margin-top: 30px;
+        font-size: 1.2rem!important;
+
+    }
+    #section_4_pic {
+        margin-top: 50px;
+        width: 100%!important;
+        margin-right: 0!important;
+        margin-left: 0!important;
+
+    }
+}
+
+@media (min-width: 801px) {
+    #logo {
+        width: 10%;
+        margin-left: 15%;
+    }
+    .slide-title {
+        top: 35%!important;
+        font-weight: 300;
+    }
+    #intro_1 {
+        margin-top: 90px;
+    }
+    .btn {
+        font-size: 1rem!important;
+        position: absolute;
+        bottom: 18%;
+        left: 80%;
+
+    }
+    #intro_1 {
+        margin-top: 0;
+    }
+    #text1 {
+        width: 670px;
+        margin-left: auto;
+        margin-right: auto;
+        top: 4vw;
+    }
+    .feature {
+        width: 28vw;
+        max-width: 368px;
+        float: left;
+        display: inline-block;
+        margin: 50px 5px 0 5px;
+
+    }
+    .feature-group {
+        height: 20vw;
+        margin: 10vh 1vw 10vh 10%;
+    }
+
+    .text2 {
+        display: block;
+        width: 45%;
+        min-width: 300px;
+        float: left;
+        top: -400px;
+    }
+
+    #slide-text-1 {
+        left: 45%;
+    }
+
+    #slide-text-2 {
+        left: 45%;
+    }
+
+    #section_3_pic {
+        width: 30%;
+        min-width: 300px;
+        margin-top: 0;
+    }
+    #section_3_pic2 {
+        width: 30%;
+        min-width: 300px;
+        margin-top: 0;
+    }
+
+    #mc_embed_signup {
+        width: 40vw;
+        min-width: 400px;
+        max-width: 800px;
+        margin: 50px auto 0 auto;
+        text-align: center;
+    }
+    #mce-EMAIL {
+        height: 40px!important;
+    }
+    #mc_embed_signup_scroll label {
+        font-size: 1.5rem!important;
+    }
+
+    #section_4_pic {
+        margin-top: 50px;
+    }
+}
+
+
+.slide-title {
+    font-family: "Helvetica Neue";
+    font-size: 1.7rem;
+    color: #6c757d;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+    position: absolute;
+    top: 130px;
+    text-align: center;
+}
+
+.slider-text {
+    position: absolute;
+    top: 100px;
+    text-align: center;
+}
+
+.section_4 {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#section_4_pic {
+    width: 70%;
+    max-width: 1280px;
+    margin-left: 15%;
+    margin-right: 15%;
+    text-align: center;
+}
+
+/* Email Subscribe Layout */
+
+#mc_embed_signup_scroll label {
+    font-family: "Helvetica Neue";
+    font-weight: 400!important;
+    text-align: center;
+}
+#mc_embed_signup_scroll {
+    text-align: center;
+    margin-right: auto!important;
+    margin-left: auto!important;
+}
+#mce-EMAIL {
+    margin-right: auto!important;
+    margin-left: auto!important;
+    height: 32px;
+}
+.clear {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn {
+    font-family: "Helvetica Neue";
+    font-weight: 400;
+    background-color: #10aea2;
+    color: white;
+    font-size: 0.8rem;
+    /*margin: 20px auto 50px auto;*/
+
+}
+/* fade in JQuery need */
+.fade {
+    opacity: 1;
+}
+
+h3 {
+    font-family: "Helvetica Neue";
+    font-weight: 300;
+}
+footer {
+    width: 100%!important;
+}
+/* social media icon */
+.social-media-group {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.fa {
+    padding: 10px;
+    font-size: 30px!important;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 10%;
+    background: #10aea2;
+    color: white;
+}
+
+.fa:hover {
+    background-color: #10dace;
+    text-decoration: none;
+    color: white;
+}
+

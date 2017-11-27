@@ -1,11 +1,23 @@
 {
   "hosting": {
     "public": "public",
+    "ignore": [
+
+    ],
     "rewrites": [
       {
         "source": "**",
         "destination": "/index.html"
       }
-    ]
+    ],
+    "redirects": [ {
+      "source" : "/test.html",
+      "destination" : "/index.html",
+      "type" : 301
+    }, {
+      "source" : "/test",
+      "destination" : "/index.html",
+      "type" : 302
+    } ]
   }
 }
