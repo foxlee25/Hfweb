@@ -142,10 +142,9 @@
     }
     .btn {
         font-size: 1rem!important;
-        position: absolute;
         bottom: 18%;
+        text-align: center;
         left: 80%;
-
     }
     #intro_1 {
         margin-top: 0;
@@ -213,6 +212,11 @@
     #section_4_pic {
         margin-top: 50px;
     }
+    #mc-embedded-subscribe {
+        position: absolute;
+        display: inline-block;
+        margin: 0 auto 0 auto;
+    }
 }
 
 
@@ -278,8 +282,18 @@
     background-color: #10aea2;
     color: white;
     font-size: 0.8rem;
-    /*margin: 20px auto 50px auto;*/
+    margin: 0 auto 50px auto;
+}
 
+
+
+#preOrder {
+    display: block;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
 }
 /* fade in JQuery need */
 .fade {
