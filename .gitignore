@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 *.xml
 
 *.xml
@@ -9,12 +8,5 @@
 .idea/.name
 
 .idea/HooFoo.iml
-=======
-.idea/.name
 
-.idea/encodings.xml
-
-.idea/HooFoo.iml
-
-*.xml
->>>>>>> dev
+node_modules/

@@ -1,34 +1,40 @@
 {
-  "title": "Full Slider",
-  "name": "startbootstrap-full-slider",
+  "title": "HooFoo",
+  "name": "HooFoo-bitcoin-wallet",
   "version": "4.0.0-beta",
-  "description": "A full page image slider HTML template built with Bootstrap",
+  "description": "The first hot and cold combination wallet, designed to secure and simplify your cryptocurrency transaction for your iOS devices.",
   "keywords": [
-    "css",
-    "sass",
-    "html",
-    "responsive",
-    "theme",
-    "template"
+    "HooFoo",
+    "Bitcoin",
+    "bitcoin wallet",
+    "cryptocurrency",
+    "ethereum",
+    "litecoin",
+    "security",
+    "segwit2x",
+    "bcc",
+    "coinbase"
   ],
-  "homepage": "https://startbootstrap.com/template-overviews/full-slider",
+  "homepage": "https://hoofoo.io",
   "bugs": {
     "url": "https://github.com/BlackrockDigital/startbootstrap-full-slider/issues",
     "email": "feedback@startbootstrap.com"
   },
   "license": "MIT",
-  "author": "Start Bootstrap",
+  "author": "HooFoo",
   "contributors": [
-    "David Miller (http://davidmiller.io/)"
+    "Joy Hou"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-full-slider.git"
+    "url": "https://github.com/foxlee25/HooFoo.git"
   },
   "dependencies": {
     "bootstrap": "^4.0.0-beta",
     "jquery": "^3.2.1",
-    "popper.js": "^1.11.1"
+    "express": "*",
+    "body-parser": "^1.18.2",
+    "popper.js": "^1.12.3"
   },
   "devDependencies": {
     "browser-sync": "2.18.13",

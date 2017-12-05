@@ -18,6 +18,10 @@
       "source" : "/test",
       "destination" : "/index.html",
       "type" : 302
+    },  {
+      "source" : "/doNotInput.*",
+      "destination" : "/index.html",
+      "type" : 302
     } ]
   }
 }
