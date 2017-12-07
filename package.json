@@ -3,6 +3,7 @@
   "name": "HooFoo-bitcoin-wallet",
   "version": "4.0.0-beta",
   "description": "The first hot and cold combination wallet, designed to secure and simplify your cryptocurrency transaction for your iOS devices.",
+  "main": "index.js",
   "keywords": [
     "HooFoo",
     "Bitcoin",
