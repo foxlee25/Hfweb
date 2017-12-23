@@ -196,6 +196,23 @@
         <img id="section_4_pic" src="img/3_dime.jpg">
     </div>
 
+    <div class="checkout-integration">
+        <form action="/charge" method="POST">
+            <script
+                    src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                    data-key="pk_test_bvrERo1bcyGnEgfviWqegtCu"
+                    data-amount="16900"
+                    data-name="HooFoo"
+                    data-description="1 Set of HooFoo ($169.00)"
+                    data-image="../img/documentation/checkout/marketplace.png"
+                    data-label="Pay with Card or Bitcoin"
+                    data-locale="auto"
+                    data-currency="usd"
+                    data-bitcoin="true">
+            </script>
+        </form>
+    </div>
+
     <!--End mc_embed_signup-->
 
 

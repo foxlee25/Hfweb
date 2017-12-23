@@ -3,7 +3,7 @@
   "name": "HooFoo-bitcoin-wallet",
   "version": "4.0.0-beta",
   "description": "The first hot and cold combination wallet, designed to secure and simplify your cryptocurrency transaction for your iOS devices.",
-  "main": "index.js",
+  "main": "app.js",
   "keywords": [
     "HooFoo",
     "Bitcoin",
@@ -31,11 +31,13 @@
     "url": "https://github.com/foxlee25/HooFoo.git"
   },
   "dependencies": {
-    "bootstrap": "^4.0.0-beta",
-    "jquery": "^3.2.1",
-    "express": "*",
     "body-parser": "^1.18.2",
-    "popper.js": "^1.12.3"
+    "bootstrap": "^4.0.0-beta",
+    "express": "^4.16.2",
+    "jquery": "^3.2.1",
+    "popper.js": "^1.12.3",
+    "pug": "^2.0.0-rc.4",
+    "stripe": "^5.4.0"
   },
   "devDependencies": {
     "browser-sync": "2.18.13",
